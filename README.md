@@ -48,6 +48,32 @@ The fix is 22 lines of Objective-C
 non-obvious things that broke it along the way (a safe-area inset, and a
 `contentSize` ceiling past which paging silently stops snapping).
 
+## Watch it
+
+Same swipe script, same simulator session, both apps back to back.
+DartNative's paging is locked to one page per swipe; `PageView` carries
+further per swipe and lands on rows the pool never warmed, which is the
+buffering spinner below.
+
+4 flicks forward, 1 back — one-flick-one-page paging, autoplay tracking
+the settled page in both apps.
+
+| DartNative | Flutter |
+|---|---|
+| <video src="https://github.com/saileshbro/video-feed-showdown/raw/main/bench/repro/dartnative-scroll-autoplay.mp4" controls width="260"></video> | <video src="https://github.com/saileshbro/video-feed-showdown/raw/main/bench/repro/flutter-scroll-autoplay.mp4" controls width="260"></video> |
+
+8 rapid swipes, 500ms apart, deliberately faster than the 2-ahead
+preload window. DartNative never stalls; Flutter visibly buffers
+mid-clip. This is the direct evidence behind "DartNative loads
+noticeably faster" — same device, same session, same script. See
+`RESULTS.md` §2/§3 for why (mostly caching, and the two apps not doing
+the same amount of work) before reading that as a framework-level decode
+difference.
+
+| DartNative — no stall | Flutter — spinner mid-clip |
+|---|---|
+| <video src="https://github.com/saileshbro/video-feed-showdown/raw/main/bench/repro/dartnative-fast-scroll-loadtest.mp4" controls width="260"></video> | <video src="https://github.com/saileshbro/video-feed-showdown/raw/main/bench/repro/flutter-fast-scroll-loadtest.mp4" controls width="260"></video> |
+
 ## Run it
 
 ```sh
@@ -68,9 +94,8 @@ python3 bench/parse_bench.py bench/dn_device.log bench/dn_simulator.log \
   bench/fl_simulator.log bench/dn_loadtest.log bench/fl_loadtest.log
 ```
 
-`bench/repro/` has screen recordings of both apps under the same
-rapid-swipe stress test — the closest thing to watching the load-time
-difference directly. See `bench/repro/README.md`.
+The raw recordings embedded above (and two more source files) live in
+`bench/repro/`. See `bench/repro/README.md`.
 
 ## Caveats, stated plainly
 
