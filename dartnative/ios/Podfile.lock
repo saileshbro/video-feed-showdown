@@ -1,0 +1,61 @@
+PODS:
+  - Cache (6.0.0)
+  - dartnative_ios (1.0.0):
+    - FlexLayout (= 2.0.10)
+  - dartnative_skia (1.0.0)
+  - dartnative_video_player (1.0.0):
+    - Cache (~> 6.0)
+    - GCDWebServer
+    - PINCache
+  - DartNativeCore (1.0.0)
+  - FlexLayout (2.0.10)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - PINCache (3.0.4):
+    - PINCache/Arc-exception-safe (= 3.0.4)
+    - PINCache/Core (= 3.0.4)
+  - PINCache/Arc-exception-safe (3.0.4):
+    - PINCache/Core
+  - PINCache/Core (3.0.4):
+    - PINOperation (~> 1.2.3)
+  - PINOperation (1.2.3)
+
+DEPENDENCIES:
+  - dartnative_ios (from `.symlinks/plugins/dartnative_ios/ios`)
+  - dartnative_skia (from `.symlinks/plugins/dartnative_skia/ios`)
+  - dartnative_video_player (from `.symlinks/plugins/dartnative_video_player/ios`)
+  - DartNativeCore (from `DartNative`)
+
+SPEC REPOS:
+  trunk:
+    - Cache
+    - FlexLayout
+    - GCDWebServer
+    - PINCache
+    - PINOperation
+
+EXTERNAL SOURCES:
+  dartnative_ios:
+    :path: ".symlinks/plugins/dartnative_ios/ios"
+  dartnative_skia:
+    :path: ".symlinks/plugins/dartnative_skia/ios"
+  dartnative_video_player:
+    :path: ".symlinks/plugins/dartnative_video_player/ios"
+  DartNativeCore:
+    :path: DartNative
+
+SPEC CHECKSUMS:
+  Cache: 4ca7e00363fca5455f26534e5607634c820ffc2d
+  dartnative_ios: 0b0315594e991ca36b75937f6a72cb6a25bd331d
+  dartnative_skia: 117d17f7e2fd3743d7fb22eb5ea7ee1cfb128661
+  dartnative_video_player: 7ed9323d0069988f48926c30715003ceeb09e691
+  DartNativeCore: 97106aef3a975e6b1a268568d58dfb74dcbebd9f
+  FlexLayout: ea94491c923485f7f28891cb5b10245d22df380b
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  PINCache: d9a87a0ff397acffe9e2f0db972ac14680441158
+  PINOperation: fb563bcc9c32c26d6c78aaff967d405aa2ee74a7
+
+PODFILE CHECKSUM: c2c431d0cbd20e6f56301edf7263446ca8d5fd90
+
+COCOAPODS: 1.17.0

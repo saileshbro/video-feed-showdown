@@ -1,0 +1,127 @@
+Resolving dependencies...
+Downloading packages...
+Got dependencies!
+Launching lib/main.dart on iPhone 17 Pro Max in debug mode...
+Running Xcode build...                                          
+Xcode build done.                                            7.0s
+Syncing files to device iPhone 17 Pro Max...                    
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311709817698,"ev":"main_enter"}
+Syncing files to device iPhone 17 Pro Max...                        16ms
+
+DartNative run key commands.
+r Hot reload. 🔥🔥🔥
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "dn run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on iPhone 17 Pro Max is available at: http://127.0.0.1:62151/hzIwMVy1a98=/
+The DartNative DevTools debugger and profiler on iPhone 17 Pro Max is available at: http://127.0.0.1:62151/hzIwMVy1a98=/devtools/?uri=ws://127.0.0.1:62151/hzIwMVy1a98=/ws
+dartnative: [DN] Licence valid (community), expires 2027-09-13
+dartnative: [DN] lifecycle → AppLifecycleState.resumed
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311709919136,"ev":"ctrl_create","i":0,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=1 url=https://videos.pexels.com/video-files/1526909/1526909-hd_1280_720_24fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=1 type=network url=https://videos.pexels.com/video-files/1526909/1526909-hd_1280_720_24fps.mp4 useCache=true
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311710025742,"ev":"ctrl_create","i":1,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=2 url=https://videos.pexels.com/video-files/1409899/1409899-hd_1280_720_25fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=2 type=network url=https://videos.pexels.com/video-files/1409899/1409899-hd_1280_720_25fps.mp4 useCache=true
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311710084079,"ev":"ctrl_create","i":2,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=3 url=https://videos.pexels.com/video-files/857251/857251-hd_1080_720_25fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=3 type=network url=https://videos.pexels.com/video-files/857251/857251-hd_1080_720_25fps.mp4 useCache=true
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311711228093,"ev":"first_frame"}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311711229744,"ev":"paging_native","code":1}
+dartnative: [VideoPlayerController] initialized: durationMs=13880 videoWidth=1080.0 videoHeight=720.0 isZeroSize=false
+dartnative: [VideoPlayerController] initialized: durationMs=10218 videoWidth=1280.0 videoHeight=720.0 isZeroSize=false
+dartnative: [VideoPlayerController] initialized: durationMs=21120 videoWidth=1280.0 videoHeight=720.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311711776469,"ev":"ctrl_ready","i":2}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311711786491,"ev":"ctrl_ready","i":0}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311711786778,"ev":"play_call","i":0}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311711787665,"ev":"ctrl_ready","i":1}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311770170788,"ev":"page_settle","i":1}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311770189052,"ev":"play_call","i":1}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311771304454,"ev":"page_settle","i":2}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311771465538,"ev":"play_call","i":2}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311771723198,"ev":"ctrl_create","i":3,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=4 url=https://videos.pexels.com/video-files/856973/856973-hd_1280_720_25fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=4 type=network url=https://videos.pexels.com/video-files/856973/856973-hd_1280_720_25fps.mp4 useCache=true
+dartnative: [VideoPlayerController] initialized: durationMs=13680 videoWidth=1280.0 videoHeight=720.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311771754723,"ev":"ctrl_ready","i":3}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311772636905,"ev":"page_settle","i":3}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311772697939,"ev":"play_call","i":3}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311772951788,"ev":"ctrl_create","i":4,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=5 url=https://videos.pexels.com/video-files/2169880/2169880-hd_1280_720_30fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=5 type=network url=https://videos.pexels.com/video-files/2169880/2169880-hd_1280_720_30fps.mp4 useCache=true
+dartnative: [VideoPlayerController] initialized: durationMs=85985 videoWidth=1280.0 videoHeight=720.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311773268827,"ev":"ctrl_ready","i":4}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311774069760,"ev":"page_settle","i":4}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311774084681,"ev":"play_call","i":4}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311774339140,"ev":"ctrl_create","i":5,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=6 url=https://videos.pexels.com/video-files/3163534/3163534-hd_1280_720_30fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=6 type=network url=https://videos.pexels.com/video-files/3163534/3163534-hd_1280_720_30fps.mp4 useCache=true
+dartnative: [VideoPlayerController] initialized: durationMs=30000 videoWidth=1280.0 videoHeight=720.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311774376399,"ev":"ctrl_ready","i":5}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311775502775,"ev":"page_settle","i":5}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311775526523,"ev":"play_call","i":5}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311775778864,"ev":"ctrl_create","i":6,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=7 url=https://videos.pexels.com/video-files/1093662/1093662-hd_1280_720_30fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=7 type=network url=https://videos.pexels.com/video-files/1093662/1093662-hd_1280_720_30fps.mp4 useCache=true
+dartnative: [VideoPlayerController] initialized: durationMs=8000 videoWidth=1280.0 videoHeight=720.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311775818237,"ev":"ctrl_ready","i":6}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311776836595,"ev":"page_settle","i":6}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311776853047,"ev":"play_call","i":6}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311777107780,"ev":"ctrl_create","i":7,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=8 url=https://videos.pexels.com/video-files/5386411/5386411-hd_1080_2048_25fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=8 type=network url=https://videos.pexels.com/video-files/5386411/5386411-hd_1080_2048_25fps.mp4 useCache=true
+dartnative: [VideoPlayerController] initialized: durationMs=14760 videoWidth=720.0 videoHeight=1366.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311777175733,"ev":"ctrl_ready","i":7}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311778205569,"ev":"page_settle","i":7}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311778439919,"ev":"play_call","i":7}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311778693602,"ev":"ctrl_create","i":8,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=9 url=https://videos.pexels.com/video-files/7438482/7438482-hd_1080_1872_30fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=9 type=network url=https://videos.pexels.com/video-files/7438482/7438482-hd_1080_1872_30fps.mp4 useCache=true
+dartnative: [VideoPlayerController] initialized: durationMs=8541 videoWidth=720.0 videoHeight=1248.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311778725821,"ev":"ctrl_ready","i":8}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311779572739,"ev":"page_settle","i":8}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311779614630,"ev":"play_call","i":8}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311779868752,"ev":"ctrl_create","i":9,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=10 url=https://videos.pexels.com/video-files/5329239/5329239-hd_1080_2048_25fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=10 type=network url=https://videos.pexels.com/video-files/5329239/5329239-hd_1080_2048_25fps.mp4 useCache=true
+dartnative: [VideoPlayerController] initialized: durationMs=64480 videoWidth=1080.0 videoHeight=2048.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311779925724,"ev":"ctrl_ready","i":9}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311825753268,"ev":"page_settle","i":9}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311825785023,"ev":"play_call","i":9}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311826039421,"ev":"ctrl_create","i":10,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=11 url=https://videos.pexels.com/video-files/1526909/1526909-hd_1920_1080_24fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=11 type=network url=https://videos.pexels.com/video-files/1526909/1526909-hd_1920_1080_24fps.mp4 useCache=true
+dartnative: [VideoPlayerController] initialized: durationMs=10218 videoWidth=1920.0 videoHeight=1080.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311826075084,"ev":"ctrl_ready","i":10}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311827154381,"ev":"page_settle","i":10}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311827184446,"ev":"play_call","i":10}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311827437630,"ev":"ctrl_create","i":11,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=12 url=https://videos.pexels.com/video-files/857251/857251-hd_1620_1080_25fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=12 type=network url=https://videos.pexels.com/video-files/857251/857251-hd_1620_1080_25fps.mp4 useCache=true
+dartnative: [VideoPlayerController] initialized: durationMs=13880 videoWidth=1080.0 videoHeight=720.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311827475232,"ev":"ctrl_ready","i":11}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311828636716,"ev":"page_settle","i":11}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311828637574,"ev":"play_call","i":11}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311828892432,"ev":"ctrl_create","i":12,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=13 url=https://videos.pexels.com/video-files/1093667/1093667-hd_1280_720_30fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=13 type=network url=https://videos.pexels.com/video-files/1093667/1093667-hd_1280_720_30fps.mp4 useCache=true
+dartnative: [VideoPlayerController] initialized: durationMs=13346 videoWidth=1280.0 videoHeight=720.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311828925596,"ev":"ctrl_ready","i":12}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311830372551,"ev":"page_settle","i":12}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311830373974,"ev":"play_call","i":12}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311830630148,"ev":"ctrl_create","i":13,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=14 url=https://videos.pexels.com/video-files/1526909/1526909-hd_1280_720_24fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=14 type=network url=https://videos.pexels.com/video-files/1526909/1526909-hd_1280_720_24fps.mp4 useCache=true
+dartnative: [VideoPlayerController] initialized: durationMs=10218 videoWidth=1280.0 videoHeight=720.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311830674809,"ev":"ctrl_ready","i":13}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311831836683,"ev":"page_settle","i":13}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311831837573,"ev":"play_call","i":13}
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311832089849,"ev":"ctrl_create","i":14,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=15 url=https://videos.pexels.com/video-files/1409899/1409899-hd_1280_720_25fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=15 type=network url=https://videos.pexels.com/video-files/1409899/1409899-hd_1280_720_25fps.mp4 useCache=true
+dartnative: [VideoPlayerController] initialized: durationMs=21120 videoWidth=1280.0 videoHeight=720.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-loadtest","t_us":1789311832126344,"ev":"ctrl_ready","i":14}
+Lost connection to device.

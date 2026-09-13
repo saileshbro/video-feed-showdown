@@ -1,0 +1,71 @@
+Resolving dependencies...
+Downloading packages...
+Got dependencies!
+Launching lib/main.dart on iPhone 17 Pro Max in debug mode...
+Running Xcode build...                                          
+Xcode build done.                                            8.5s
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310872156614,"ev":"main_enter"}
+dartnative: [DN] Licence valid (community), expires 2027-09-13
+dartnative: [DN] lifecycle → AppLifecycleState.inactive
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310872268316,"ev":"ctrl_create","i":0,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=1 url=https://videos.pexels.com/video-files/1526909/1526909-hd_1280_720_24fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=1 type=network url=https://videos.pexels.com/video-files/1526909/1526909-hd_1280_720_24fps.mp4 useCache=true
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310872345756,"ev":"ctrl_create","i":1,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=2 url=https://videos.pexels.com/video-files/1409899/1409899-hd_1280_720_25fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=2 type=network url=https://videos.pexels.com/video-files/1409899/1409899-hd_1280_720_25fps.mp4 useCache=true
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310872389935,"ev":"ctrl_create","i":2,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=3 url=https://videos.pexels.com/video-files/857251/857251-hd_1080_720_25fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=3 type=network url=https://videos.pexels.com/video-files/857251/857251-hd_1080_720_25fps.mp4 useCache=true
+Syncing files to device iPhone 17 Pro Max...                        21ms
+
+DartNative run key commands.
+r Hot reload. 🔥🔥🔥
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "dn run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on iPhone 17 Pro Max is available at: http://127.0.0.1:61054/KxhOfzvFfE4=/
+The DartNative DevTools debugger and profiler on iPhone 17 Pro Max is available at: http://127.0.0.1:61054/KxhOfzvFfE4=/devtools/?uri=ws://127.0.0.1:61054/KxhOfzvFfE4=/ws
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310873527412,"ev":"first_frame"}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310873529337,"ev":"paging_native","code":1}
+dartnative: [DN] lifecycle → AppLifecycleState.resumed
+dartnative: [VideoPlayerController] initialized: durationMs=13880 videoWidth=1080.0 videoHeight=720.0 isZeroSize=false
+dartnative: [VideoPlayerController] initialized: durationMs=21120 videoWidth=1280.0 videoHeight=720.0 isZeroSize=false
+dartnative: [VideoPlayerController] initialized: durationMs=10218 videoWidth=1280.0 videoHeight=720.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310874412511,"ev":"ctrl_ready","i":2}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310874451891,"ev":"ctrl_ready","i":1}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310874456175,"ev":"ctrl_ready","i":0}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310874456328,"ev":"play_call","i":0}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310884510338,"ev":"page_settle","i":1}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310884528282,"ev":"play_call","i":1}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310887993987,"ev":"page_settle","i":2}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310888155962,"ev":"play_call","i":2}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310888412461,"ev":"ctrl_create","i":3,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=4 url=https://videos.pexels.com/video-files/856973/856973-hd_1280_720_25fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=4 type=network url=https://videos.pexels.com/video-files/856973/856973-hd_1280_720_25fps.mp4 useCache=true
+dartnative: [VideoPlayerController] initialized: durationMs=13680 videoWidth=1280.0 videoHeight=720.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310888445098,"ev":"ctrl_ready","i":3}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310891211463,"ev":"page_settle","i":3}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310891271597,"ev":"play_call","i":3}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310891525939,"ev":"ctrl_create","i":4,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=5 url=https://videos.pexels.com/video-files/2169880/2169880-hd_1280_720_30fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=5 type=network url=https://videos.pexels.com/video-files/2169880/2169880-hd_1280_720_30fps.mp4 useCache=true
+dartnative: [VideoPlayerController] initialized: durationMs=85985 videoWidth=1280.0 videoHeight=720.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310891818585,"ev":"ctrl_ready","i":4}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310894475685,"ev":"page_settle","i":4}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310894493036,"ev":"play_call","i":4}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310894747117,"ev":"ctrl_create","i":5,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=6 url=https://videos.pexels.com/video-files/3163534/3163534-hd_1280_720_30fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=6 type=network url=https://videos.pexels.com/video-files/3163534/3163534-hd_1280_720_30fps.mp4 useCache=true
+dartnative: [VideoPlayerController] initialized: durationMs=30000 videoWidth=1280.0 videoHeight=720.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310894784185,"ev":"ctrl_ready","i":5}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310897722913,"ev":"page_settle","i":5}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310897752718,"ev":"play_call","i":5}
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310898007204,"ev":"ctrl_create","i":6,"src":"network"}
+dartnative: [VideoPlayer] _createPlayer: playerId=7 url=https://videos.pexels.com/video-files/1093662/1093662-hd_1280_720_30fps.mp4
+dartnative: [VideoPlayer] _setDataSource: playerId=7 type=network url=https://videos.pexels.com/video-files/1093662/1093662-hd_1280_720_30fps.mp4 useCache=true
+dartnative: [VideoPlayerController] initialized: durationMs=8000 videoWidth=1280.0 videoHeight=720.0 isZeroSize=false
+dartnative: ##BENCH## {"tag":"dn-clean-sim","t_us":1789310898044561,"ev":"ctrl_ready","i":6}
+Lost connection to device.

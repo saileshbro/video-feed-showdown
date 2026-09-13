@@ -1,0 +1,144 @@
+Resolving dependencies...
+Downloading packages...
+  clock 1.1.2 (1.1.3 available)
+  flutter_lints 3.0.2 (6.0.0 available)
+  lints 3.0.0 (6.1.0 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.17.0 (1.19.0 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test_api 0.7.10 (0.7.14 available)
+  vector_math 2.2.0 (2.4.2 available)
+  video_player 2.11.1 (2.14.0 available)
+  video_player_android 2.9.5 (2.12.2 available)
+Got dependencies!
+11 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Launching lib/main.dart on iPhone 17 Pro Max in debug mode...
+Running Xcode build...                                          
+Xcode build done.                                           25.8s
+Syncing files to device iPhone 17 Pro Max...                    
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310960728437,"ev":"main_enter"}
+Syncing files to device iPhone 17 Pro Max...                       268ms
+
+Flutter run key commands.
+r Hot reload. 🔥🔥🔥
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on iPhone 17 Pro Max is available at: http://127.0.0.1:61253/sBuda_73t80=/
+The Flutter DevTools debugger and profiler on iPhone 17 Pro Max is available at: http://127.0.0.1:61253/sBuda_73t80=/devtools/?uri=ws://127.0.0.1:61253/sBuda_73t80=/ws
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310960995103,"ev":"ctrl_create","i":0,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310961001233,"ev":"ctrl_create","i":1,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310961001483,"ev":"ctrl_create","i":2,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310961276228,"ev":"first_frame"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310962506179,"ev":"ctrl_ready","i":1}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310962506744,"ev":"ctrl_ready","i":2}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310963535857,"ev":"ctrl_ready","i":0}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310963536155,"ev":"play_call","i":0}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310995231337,"ev":"page_settle","i":1}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310995232233,"ev":"play_call","i":1}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310996799211,"ev":"page_settle","i":2}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310996799615,"ev":"play_call","i":2}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310997052039,"ev":"ctrl_create","i":3,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310998096305,"ev":"ctrl_ready","i":3}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310998865203,"ev":"page_settle","i":3}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310998865550,"ev":"play_call","i":3}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789310999118316,"ev":"ctrl_create","i":4,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311000431754,"ev":"page_settle","i":4}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311000682856,"ev":"ctrl_create","i":5,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311001049166,"ev":"ctrl_ready","i":5}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311001381858,"ev":"ctrl_ready","i":4}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311001382163,"ev":"play_call","i":4}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311006764493,"ev":"page_settle","i":5}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311006764900,"ev":"play_call","i":5}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311007017149,"ev":"ctrl_create","i":6,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311007285224,"ev":"ctrl_ready","i":6}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311008515796,"ev":"page_settle","i":6}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311008516136,"ev":"play_call","i":6}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311008768046,"ev":"ctrl_create","i":7,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311010617567,"ev":"ctrl_ready","i":7}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311012165082,"ev":"page_settle","i":7}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311012165442,"ev":"play_call","i":7}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311012417848,"ev":"ctrl_create","i":8,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311014559889,"ev":"ctrl_ready","i":8}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311015799047,"ev":"page_settle","i":8}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311015799395,"ev":"play_call","i":8}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311016052060,"ev":"ctrl_create","i":9,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311016744486,"ev":"ctrl_ready","i":9}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311019814427,"ev":"page_settle","i":9}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311019814955,"ev":"play_call","i":9}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311020067595,"ev":"ctrl_create","i":10,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311020676792,"ev":"ctrl_ready","i":10}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311022767010,"ev":"page_settle","i":10}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311022767347,"ev":"play_call","i":10}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311023019605,"ev":"ctrl_create","i":11,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311023989506,"ev":"ctrl_ready","i":11}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311026032293,"ev":"page_settle","i":11}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311026032604,"ev":"play_call","i":11}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311026284700,"ev":"ctrl_create","i":12,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311027157430,"ev":"ctrl_ready","i":12}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311029484224,"ev":"page_settle","i":12}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311029484573,"ev":"play_call","i":12}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311029736592,"ev":"ctrl_create","i":13,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311031419080,"ev":"ctrl_ready","i":13}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311032765187,"ev":"page_settle","i":13}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311032765517,"ev":"play_call","i":13}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311033018644,"ev":"ctrl_create","i":14,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311033643031,"ev":"ctrl_ready","i":14}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311036016609,"ev":"page_settle","i":14}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311036017049,"ev":"play_call","i":14}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311036268225,"ev":"ctrl_create","i":15,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311036580222,"ev":"ctrl_ready","i":15}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311042781671,"ev":"page_settle","i":15}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311042783996,"ev":"play_call","i":15}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311043036631,"ev":"ctrl_create","i":16,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311044531186,"ev":"page_settle","i":16}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311044552398,"ev":"ctrl_ready","i":16}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311044552662,"ev":"play_call","i":16}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311044784068,"ev":"ctrl_create","i":17,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311046601571,"ev":"ctrl_ready","i":17}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311047683611,"ev":"page_settle","i":17}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311047684126,"ev":"play_call","i":17}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311047936079,"ev":"ctrl_create","i":18,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311049006464,"ev":"ctrl_ready","i":18}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311050031653,"ev":"page_settle","i":18}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311050032077,"ev":"play_call","i":18}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311050283869,"ev":"ctrl_create","i":19,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311051405098,"ev":"ctrl_ready","i":19}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311051631739,"ev":"page_settle","i":19}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311051632099,"ev":"play_call","i":19}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311051882971,"ev":"ctrl_create","i":20,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311053661838,"ev":"ctrl_ready","i":20}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311059181443,"ev":"page_settle","i":20}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311059181906,"ev":"play_call","i":20}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311059433814,"ev":"ctrl_create","i":21,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311060671518,"ev":"ctrl_ready","i":21}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311061264951,"ev":"page_settle","i":21}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311061265265,"ev":"play_call","i":21}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311061516913,"ev":"ctrl_create","i":22,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311062260921,"ev":"ctrl_ready","i":22}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311072931288,"ev":"page_settle","i":22}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311072931753,"ev":"play_call","i":22}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311073183964,"ev":"ctrl_create","i":23,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311073619004,"ev":"ctrl_ready","i":23}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311079897773,"ev":"page_settle","i":23}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311079898112,"ev":"play_call","i":23}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311080150180,"ev":"ctrl_create","i":24,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311080543213,"ev":"ctrl_ready","i":24}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311081564913,"ev":"page_settle","i":24}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311081565260,"ev":"play_call","i":24}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311081817092,"ev":"ctrl_create","i":25,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311082928066,"ev":"ctrl_ready","i":25}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311083664397,"ev":"page_settle","i":25}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311083664728,"ev":"play_call","i":25}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311083917010,"ev":"ctrl_create","i":26,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311085379508,"ev":"ctrl_ready","i":26}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311087514367,"ev":"page_settle","i":26}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311087514689,"ev":"play_call","i":26}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311087767405,"ev":"ctrl_create","i":27,"src":"network"}
+flutter: ##BENCH## {"tag":"fl-clean-sim","t_us":1789311088028958,"ev":"ctrl_ready","i":27}
+Lost connection to device.
