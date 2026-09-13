@@ -60,7 +60,7 @@ the settled page in both apps.
 
 | DartNative | Flutter |
 |---|---|
-| <video src="https://github.com/saileshbro/video-feed-showdown/raw/main/bench/repro/dartnative-scroll-autoplay.mp4" controls width="260"></video> | <video src="https://github.com/saileshbro/video-feed-showdown/raw/main/bench/repro/flutter-scroll-autoplay.mp4" controls width="260"></video> |
+| ![DartNative scroll and autoplay](bench/repro/dartnative-scroll-autoplay.gif) | ![Flutter scroll and autoplay](bench/repro/flutter-scroll-autoplay.gif) |
 
 8 rapid swipes, 500ms apart, deliberately faster than the 2-ahead
 preload window. DartNative never stalls; Flutter visibly buffers
@@ -72,7 +72,11 @@ difference.
 
 | DartNative — no stall | Flutter — spinner mid-clip |
 |---|---|
-| <video src="https://github.com/saileshbro/video-feed-showdown/raw/main/bench/repro/dartnative-fast-scroll-loadtest.mp4" controls width="260"></video> | <video src="https://github.com/saileshbro/video-feed-showdown/raw/main/bench/repro/flutter-fast-scroll-loadtest.mp4" controls width="260"></video> |
+| ![DartNative under rapid-swipe load test](bench/repro/dartnative-fast-scroll-loadtest.gif) | ![Flutter under rapid-swipe load test](bench/repro/flutter-fast-scroll-loadtest.gif) |
+
+GIFs above are re-encoded (6fps, 48-color palette) to keep the README
+light — for full quality and audio-free but unclipped footage, the
+source `.mp4` files are in `bench/repro/`.
 
 ## Run it
 
