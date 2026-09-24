@@ -47,6 +47,24 @@ The bench build (`UI=bench`) was not instrumented, so whether it also builds
 1000 pages is not measured; its pages are about 8 views each against about 70
 for the full UI.
 
+## Update, 2026-09-24: 30 pages instead of 1,000
+
+After the post, the DartNative team suggested a feed only needs about 30
+pages loaded. Same code, same phone, same session, only `FEED_COUNT`
+changed. This build has the fixed-size rail (`kRailWidth`) that the rows
+above did not, so compare the two rows below with each other, not with the
+table above.
+
+| `itemCount` | Startup (ms) | First clip ready (ms) | `itemBuilder` calls before first frame | Calls in 12s | Logs |
+|---|---|---|---|---|---|
+| 30 | 342, 353, 356 | 613, 536, 592 | 30 | 150, 150, 120 | `logs/feed30_{1,2,3}.log` |
+| 1000 | 2341, 2221, 2263 | 2850, 2693, 2763 | 1000 | 3000 each | `logs/feed1000_{1,2,3}.log` |
+
+`PageView.builder` still built every page it was given before the first
+frame and rebuilt all of them on each `setState`; with 30 pages that is
+cheap. A 30-page feed also ends at page 30. How a feed that grows its
+`itemCount` as the reader nears the end behaves was not tested.
+
 ## Why the full UI is slow: Time Profiler
 
 `traces/launch_full.trace` and `traces/l2.trace` (exported tables:
