@@ -1,0 +1,13 @@
+[connected:00008140-001A2D4136BB001C]
+Sep 24 12:15:03.048992 Runner(Flutter)[1455] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_bench","t_us":1790231403046444,"ev":"main_enter"}
+Sep 24 12:15:03.060289 Runner(Flutter)[1455] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_bench","t_us":1790231403060244,"ev":"ctrl_create","i":0,"src":"network"}
+Sep 24 12:15:03.106119 Runner(Flutter)[1455] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_bench","t_us":1790231403105901,"ev":"ctrl_create","i":1,"src":"network"}
+Sep 24 12:15:03.137375 Runner(Flutter)[1455] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_bench","t_us":1790231403137249,"ev":"ctrl_create","i":2,"src":"network"}
+Sep 24 12:15:03.523046 Runner(Flutter)[1455] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_bench","t_us":1790231403522953,"ev":"first_frame"}
+Sep 24 12:15:03.654136 Runner(Flutter)[1455] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_bench","t_us":1790231403654039,"ev":"ctrl_ready","i":1}
+Sep 24 12:15:03.654165 Runner(Flutter)[1455] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_bench","t_us":1790231403654096,"ev":"ctrl_ready","i":0}
+Sep 24 12:15:03.654175 Runner(Flutter)[1455] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_bench","t_us":1790231403654115,"ev":"play_call","i":0}
+Sep 24 12:15:03.654282 Runner(Flutter)[1455] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_bench","t_us":1790231403654182,"ev":"ctrl_ready","i":2}
+
+Exiting...
+[disconnected:00008140-001A2D4136BB001C]

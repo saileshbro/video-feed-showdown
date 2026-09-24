@@ -1,0 +1,18 @@
+[connected:00008140-001A2D4136BB001C]
+Sep 24 12:25:11.486336 Runner(Flutter)[1559] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232011484597,"ev":"main_enter"}
+Sep 24 12:25:11.487958 Runner(Flutter)[1559] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232011487539,"ev":"media_configure_start"}
+Sep 24 12:25:11.579875 Runner(Flutter)[1559] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232011558465,"ev":"media_configure_end"}
+Sep 24 12:25:11.580262 Runner(Flutter)[1559] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232011558501,"ev":"run_app"}
+Sep 24 12:25:11.607276 Runner(Flutter)[1559] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232011567492,"ev":"ctrl_create","i":0,"src":"network"}
+Sep 24 12:25:11.629984 Runner(Flutter)[1559] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232011601561,"ev":"ctrl_create","i":1,"src":"network"}
+Sep 24 12:25:11.634025 Runner(Flutter)[1559] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232011610814,"ev":"ctrl_create","i":2,"src":"network"}
+Sep 24 12:25:14.653116 Runner(Flutter)[1559] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232014653060,"ev":"first_frame"}
+Sep 24 12:25:15.219197 Runner(Flutter)[1559] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232015083534,"ev":"ctrl_ready","i":1}
+Sep 24 12:25:15.219273 Runner(Flutter)[1559] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232015083744,"ev":"ctrl_ready","i":2}
+Sep 24 12:25:15.527847 Runner(Flutter)[1559] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232015527755,"ev":"ctrl_ready","i":0}
+Sep 24 12:25:15.527869 Runner(Flutter)[1559] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232015527785,"ev":"play_call","i":0}
+Sep 24 12:25:15.554976 Runner(Flutter)[1559] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232015537751,"ev":"media_attach","i":0,"result":"attached"}
+Sep 24 12:25:15.555020 Runner(Flutter)[1559] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232015537948,"ev":"media_event","type":"ExternalPlaybackChanged"}
+
+Exiting...
+[disconnected:00008140-001A2D4136BB001C]

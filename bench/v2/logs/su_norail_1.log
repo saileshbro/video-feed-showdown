@@ -1,0 +1,18 @@
+[connected:00008140-001A2D4136BB001C]
+Sep 24 12:52:51.626002 Runner(Flutter)[1870] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233671625702,"ev":"main_enter"}
+Sep 24 12:52:51.629495 Runner(Flutter)[1870] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233671629426,"ev":"media_configure_start"}
+Sep 24 12:52:51.720695 Runner(Flutter)[1870] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233671714656,"ev":"media_configure_end"}
+Sep 24 12:52:51.720768 Runner(Flutter)[1870] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233671714753,"ev":"run_app"}
+Sep 24 12:52:51.735547 Runner(Flutter)[1870] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233671723716,"ev":"ctrl_create","i":0,"src":"network"}
+Sep 24 12:52:51.774278 Runner(Flutter)[1870] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233671763086,"ev":"ctrl_create","i":1,"src":"network"}
+Sep 24 12:52:51.780392 Runner(Flutter)[1870] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233671773316,"ev":"ctrl_create","i":2,"src":"network"}
+Sep 24 12:52:52.432166 Runner(Flutter)[1870] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233672432111,"ev":"first_frame"}
+Sep 24 12:52:52.736134 Runner(Flutter)[1870] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233672716980,"ev":"ctrl_ready","i":2}
+Sep 24 12:52:52.904729 Runner(Flutter)[1870] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233672904542,"ev":"ctrl_ready","i":1}
+Sep 24 12:52:53.031046 Runner(Flutter)[1870] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233673030926,"ev":"ctrl_ready","i":0}
+Sep 24 12:52:53.031091 Runner(Flutter)[1870] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233673030999,"ev":"play_call","i":0}
+Sep 24 12:52:53.074770 Runner(Flutter)[1870] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233673045628,"ev":"media_attach","i":0,"result":"attached"}
+Sep 24 12:52:53.075460 Runner(Flutter)[1870] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233673045759,"ev":"media_event","type":"ExternalPlaybackChanged"}
+
+Exiting...
+[disconnected:00008140-001A2D4136BB001C]

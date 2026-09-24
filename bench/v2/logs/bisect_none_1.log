@@ -1,0 +1,18 @@
+[connected:00008140-001A2D4136BB001C]
+Sep 24 12:33:13.977666 Runner(Flutter)[1669] <Notice>: dartnative: ##BENCH## {"tag":"bisect_none","t_us":1790232493977550,"ev":"main_enter"}
+Sep 24 12:33:13.981126 Runner(Flutter)[1669] <Notice>: dartnative: ##BENCH## {"tag":"bisect_none","t_us":1790232493981078,"ev":"media_configure_start"}
+Sep 24 12:33:14.070356 Runner(Flutter)[1669] <Notice>: dartnative: ##BENCH## {"tag":"bisect_none","t_us":1790232494048347,"ev":"media_configure_end"}
+Sep 24 12:33:14.070387 Runner(Flutter)[1669] <Notice>: dartnative: ##BENCH## {"tag":"bisect_none","t_us":1790232494048418,"ev":"run_app"}
+Sep 24 12:33:14.087745 Runner(Flutter)[1669] <Notice>: dartnative: ##BENCH## {"tag":"bisect_none","t_us":1790232494057832,"ev":"ctrl_create","i":0,"src":"network"}
+Sep 24 12:33:14.128565 Runner(Flutter)[1669] <Notice>: dartnative: ##BENCH## {"tag":"bisect_none","t_us":1790232494092174,"ev":"ctrl_create","i":1,"src":"network"}
+Sep 24 12:33:14.134794 Runner(Flutter)[1669] <Notice>: dartnative: ##BENCH## {"tag":"bisect_none","t_us":1790232494099498,"ev":"ctrl_create","i":2,"src":"network"}
+Sep 24 12:33:19.278209 Runner(Flutter)[1669] <Notice>: dartnative: ##BENCH## {"tag":"bisect_none","t_us":1790232499277812,"ev":"first_frame"}
+Sep 24 12:33:19.894766 Runner(Flutter)[1669] <Notice>: dartnative: ##BENCH## {"tag":"bisect_none","t_us":1790232499893827,"ev":"ctrl_ready","i":2}
+Sep 24 12:33:19.894832 Runner(Flutter)[1669] <Notice>: dartnative: ##BENCH## {"tag":"bisect_none","t_us":1790232499893937,"ev":"ctrl_ready","i":1}
+Sep 24 12:33:20.245606 Runner(Flutter)[1669] <Notice>: dartnative: ##BENCH## {"tag":"bisect_none","t_us":1790232500245533,"ev":"ctrl_ready","i":0}
+Sep 24 12:33:20.245675 Runner(Flutter)[1669] <Notice>: dartnative: ##BENCH## {"tag":"bisect_none","t_us":1790232500245594,"ev":"play_call","i":0}
+Sep 24 12:33:20.279392 Runner(Flutter)[1669] <Notice>: dartnative: ##BENCH## {"tag":"bisect_none","t_us":1790232500257182,"ev":"media_attach","i":0,"result":"attached"}
+Sep 24 12:33:20.279523 Runner(Flutter)[1669] <Notice>: dartnative: ##BENCH## {"tag":"bisect_none","t_us":1790232500257329,"ev":"media_event","type":"ExternalPlaybackChanged"}
+
+Exiting...
+[disconnected:00008140-001A2D4136BB001C]

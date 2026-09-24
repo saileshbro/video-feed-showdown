@@ -1,0 +1,28 @@
+name: feed_native_media
+description: >
+  What the video feed needs from iOS that dartnative_video_player does not
+  expose: background playback, Picture in Picture, lock-screen and Control
+  Center controls, and an AirPlay route picker. App-local, iOS only.
+version: 0.1.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.9.0-0
+
+dependencies:
+  dartnative: ^1.0.0
+  ffi: ^2.1.0
+
+# Same shape as the first-party plugins (dartnative_share,
+# dartnative_video_player): FFI on iOS, discovered by `dn pub get`, which emits
+# the import and the loadSymbols() call into the app's registrant.
+dartnative:
+  plugin:
+    platforms:
+      ios:
+        ffiPlugin: true
+  registrant:
+    imports:
+      - package:feed_native_media/feed_native_media.dart
+    calls:
+      - FeedNativeMedia.loadSymbols();

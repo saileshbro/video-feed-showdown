@@ -1,0 +1,14 @@
+[connected:00008140-001A2D4136BB001C]
+Sep 24 12:28:14.974213 Runner(Flutter)[1640] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noouter","t_us":1790232194893969,"ev":"main_enter"}
+Sep 24 12:28:14.976007 Runner(Flutter)[1640] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noouter","t_us":1790232194899740,"ev":"media_configure_start"}
+Sep 24 12:28:15.106288 Runner(Flutter)[1640] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noouter","t_us":1790232194985021,"ev":"media_configure_end"}
+Sep 24 12:28:15.106303 Runner(Flutter)[1640] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noouter","t_us":1790232194985063,"ev":"run_app"}
+Sep 24 12:28:15.107565 Runner(Flutter)[1640] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noouter","t_us":1790232194990891,"ev":"ctrl_create","i":0,"src":"network"}
+Sep 24 12:28:18.818936 Runner(Flutter)[1640] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noouter","t_us":1790232198818868,"ev":"first_frame"}
+Sep 24 12:28:19.745924 Runner(Flutter)[1640] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noouter","t_us":1790232199745827,"ev":"ctrl_ready","i":0}
+Sep 24 12:28:19.745966 Runner(Flutter)[1640] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noouter","t_us":1790232199745894,"ev":"play_call","i":0}
+Sep 24 12:28:19.765415 Runner(Flutter)[1640] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noouter","t_us":1790232199753787,"ev":"media_attach","i":0,"result":"attached"}
+Sep 24 12:28:19.765440 Runner(Flutter)[1640] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noouter","t_us":1790232199753878,"ev":"media_event","type":"ExternalPlaybackChanged"}
+
+Exiting...
+[disconnected:00008140-001A2D4136BB001C]

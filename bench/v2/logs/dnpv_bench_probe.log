@@ -1,0 +1,16 @@
+[connected:00008140-001A2D4136BB001C]
+Sep 24 12:13:54.812356 Runner(Flutter)[1409] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231334803423,"ev":"main_enter"}
+Sep 24 12:13:54.938379 Runner(Flutter)[1409] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231334916949,"ev":"ctrl_create","i":0,"src":"network"}
+Sep 24 12:13:54.973431 Runner(Flutter)[1409] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231334969666,"ev":"ctrl_create","i":1,"src":"network"}
+Sep 24 12:13:55.036032 Runner(Flutter)[1409] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231335019990,"ev":"ctrl_create","i":2,"src":"network"}
+Sep 24 12:14:00.440507 Runner(Flutter)[1409] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231340440027,"ev":"first_frame"}
+Sep 24 12:14:00.909245 Runner(Flutter)[1409] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231340909058,"ev":"ctrl_ready","i":1}
+Sep 24 12:14:00.909396 Runner(Flutter)[1409] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231340909318,"ev":"ctrl_ready","i":0}
+Sep 24 12:14:00.909502 Runner(Flutter)[1409] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231340909360,"ev":"play_call","i":0}
+Sep 24 12:14:00.939884 Runner(Flutter)[1409] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231340935841,"ev":"media_attach","i":0,"result":"attached"}
+Sep 24 12:14:00.939903 Runner(Flutter)[1409] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231340935920,"ev":"ctrl_ready","i":2}
+Sep 24 12:14:00.939992 Runner(Flutter)[1409] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231340936065,"ev":"media_event","type":"ExternalPlaybackChanged"}
+Sep 24 12:14:07.954617 Runner(Flutter)[1409] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231347951866,"ev":"outer_page","page":1}
+
+Exiting...
+[disconnected:00008140-001A2D4136BB001C]

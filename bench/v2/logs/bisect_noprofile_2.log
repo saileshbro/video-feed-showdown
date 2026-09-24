@@ -1,0 +1,12 @@
+[connected:00008140-001A2D4136BB001C]
+Sep 24 12:25:24.723750 Runner(Flutter)[1564] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232024714395,"ev":"main_enter"}
+Sep 24 12:25:24.725766 Runner(Flutter)[1564] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232024722151,"ev":"media_configure_start"}
+Sep 24 12:25:24.854782 Runner(Flutter)[1564] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232024836848,"ev":"media_configure_end"}
+Sep 24 12:25:24.854824 Runner(Flutter)[1564] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232024836917,"ev":"run_app"}
+Sep 24 12:25:24.860763 Runner(Flutter)[1564] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232024848021,"ev":"ctrl_create","i":0,"src":"network"}
+Sep 24 12:25:24.938543 Runner(Flutter)[1564] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232024899877,"ev":"ctrl_create","i":1,"src":"network"}
+Sep 24 12:25:24.950201 Runner(Flutter)[1564] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232024913868,"ev":"ctrl_create","i":2,"src":"network"}
+Sep 24 12:25:28.234107 Runner(Flutter)[1564] <Notice>: dartnative: ##BENCH## {"tag":"bisect_noprofile","t_us":1790232028234062,"ev":"first_frame"}
+
+Exiting...
+[disconnected:00008140-001A2D4136BB001C]

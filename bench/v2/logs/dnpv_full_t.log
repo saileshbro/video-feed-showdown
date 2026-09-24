@@ -1,0 +1,18 @@
+[connected:00008140-001A2D4136BB001C]
+Sep 24 12:16:22.401233 Runner(Flutter)[1459] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231482399841,"ev":"main_enter"}
+Sep 24 12:16:22.404823 Runner(Flutter)[1459] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231482404743,"ev":"media_configure_start"}
+Sep 24 12:16:22.475330 Runner(Flutter)[1459] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231482462289,"ev":"media_configure_end"}
+Sep 24 12:16:22.475520 Runner(Flutter)[1459] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231482462321,"ev":"run_app"}
+Sep 24 12:16:22.496643 Runner(Flutter)[1459] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231482470710,"ev":"ctrl_create","i":0,"src":"network"}
+Sep 24 12:16:22.529407 Runner(Flutter)[1459] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231482515016,"ev":"ctrl_create","i":1,"src":"network"}
+Sep 24 12:16:22.533770 Runner(Flutter)[1459] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231482525533,"ev":"ctrl_create","i":2,"src":"network"}
+Sep 24 12:16:25.800547 Runner(Flutter)[1459] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231485800499,"ev":"first_frame"}
+Sep 24 12:16:26.333378 Runner(Flutter)[1459] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231486332771,"ev":"ctrl_ready","i":2}
+Sep 24 12:16:26.333564 Runner(Flutter)[1459] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231486332866,"ev":"ctrl_ready","i":1}
+Sep 24 12:16:26.880879 Runner(Flutter)[1459] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231486880749,"ev":"ctrl_ready","i":0}
+Sep 24 12:16:26.880892 Runner(Flutter)[1459] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231486880803,"ev":"play_call","i":0}
+Sep 24 12:16:26.908671 Runner(Flutter)[1459] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231486903395,"ev":"media_attach","i":0,"result":"attached"}
+Sep 24 12:16:26.908912 Runner(Flutter)[1459] <Notice>: dartnative: ##BENCH## {"tag":"dnpv_full","t_us":1790231486903526,"ev":"media_event","type":"ExternalPlaybackChanged"}
+
+Exiting...
+[disconnected:00008140-001A2D4136BB001C]

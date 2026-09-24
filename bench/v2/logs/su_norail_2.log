@@ -1,0 +1,18 @@
+[connected:00008140-001A2D4136BB001C]
+Sep 24 12:53:06.741646 Runner(Flutter)[1872] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233686741397,"ev":"main_enter"}
+Sep 24 12:53:06.746183 Runner(Flutter)[1872] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233686746062,"ev":"media_configure_start"}
+Sep 24 12:53:06.850552 Runner(Flutter)[1872] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233686841395,"ev":"media_configure_end"}
+Sep 24 12:53:06.850568 Runner(Flutter)[1872] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233686841473,"ev":"run_app"}
+Sep 24 12:53:06.857180 Runner(Flutter)[1872] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233686850520,"ev":"ctrl_create","i":0,"src":"network"}
+Sep 24 12:53:06.927506 Runner(Flutter)[1872] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233686902683,"ev":"ctrl_create","i":1,"src":"network"}
+Sep 24 12:53:06.932069 Runner(Flutter)[1872] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233686916713,"ev":"ctrl_create","i":2,"src":"network"}
+Sep 24 12:53:07.627647 Runner(Flutter)[1872] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233687627584,"ev":"first_frame"}
+Sep 24 12:53:08.115783 Runner(Flutter)[1872] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233688111706,"ev":"ctrl_ready","i":2}
+Sep 24 12:53:08.152593 Runner(Flutter)[1872] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233688152479,"ev":"ctrl_ready","i":0}
+Sep 24 12:53:08.152608 Runner(Flutter)[1872] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233688152536,"ev":"play_call","i":0}
+Sep 24 12:53:08.173896 Runner(Flutter)[1872] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233688168681,"ev":"media_attach","i":0,"result":"attached"}
+Sep 24 12:53:08.174065 Runner(Flutter)[1872] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233688168843,"ev":"media_event","type":"ExternalPlaybackChanged"}
+Sep 24 12:53:11.394688 Runner(Flutter)[1872] <Notice>: dartnative: ##BENCH## {"tag":"norail","t_us":1790233691394374,"ev":"ctrl_ready","i":1}
+
+Exiting...
+[disconnected:00008140-001A2D4136BB001C]

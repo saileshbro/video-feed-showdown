@@ -1,0 +1,66 @@
+PODS:
+  - Cache (6.0.0)
+  - dartnative_ios (1.0.0):
+    - FlexLayout (= 2.0.10)
+  - dartnative_share (1.0.0)
+  - dartnative_video_player (1.0.1):
+    - Cache (~> 6.0)
+    - GCDWebServer
+    - PINCache
+  - DartNativeCore (1.0.0)
+  - feed_native_media (0.1.0)
+  - FlexLayout (2.0.10)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - PINCache (3.0.4):
+    - PINCache/Arc-exception-safe (= 3.0.4)
+    - PINCache/Core (= 3.0.4)
+  - PINCache/Arc-exception-safe (3.0.4):
+    - PINCache/Core
+  - PINCache/Core (3.0.4):
+    - PINOperation (~> 1.2.3)
+  - PINOperation (1.2.3)
+
+DEPENDENCIES:
+  - dartnative_ios (from `.symlinks/plugins/dartnative_ios/ios`)
+  - dartnative_share (from `.symlinks/plugins/dartnative_share/ios`)
+  - dartnative_video_player (from `.symlinks/plugins/dartnative_video_player/ios`)
+  - DartNativeCore (from `DartNative`)
+  - feed_native_media (from `.symlinks/plugins/feed_native_media/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Cache
+    - FlexLayout
+    - GCDWebServer
+    - PINCache
+    - PINOperation
+
+EXTERNAL SOURCES:
+  dartnative_ios:
+    :path: ".symlinks/plugins/dartnative_ios/ios"
+  dartnative_share:
+    :path: ".symlinks/plugins/dartnative_share/ios"
+  dartnative_video_player:
+    :path: ".symlinks/plugins/dartnative_video_player/ios"
+  DartNativeCore:
+    :path: DartNative
+  feed_native_media:
+    :path: ".symlinks/plugins/feed_native_media/ios"
+
+SPEC CHECKSUMS:
+  Cache: 4ca7e00363fca5455f26534e5607634c820ffc2d
+  dartnative_ios: 88d434758a21de28291d1ca70f9a144bd28548c7
+  dartnative_share: 9739fdb17c1cc0393460821503a28ccac33e8e3e
+  dartnative_video_player: 961b957b310fd0d0ad8847fcf545292e3d886a48
+  DartNativeCore: 225e49d9e35e234bcadc6b81586fc4275a1006ee
+  feed_native_media: 4b1cfa39309f4ba540dadc93fa03d49b5903379b
+  FlexLayout: ea94491c923485f7f28891cb5b10245d22df380b
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  PINCache: d9a87a0ff397acffe9e2f0db972ac14680441158
+  PINOperation: fb563bcc9c32c26d6c78aaff967d405aa2ee74a7
+
+PODFILE CHECKSUM: 0eb83f38c0038ca753c95effc43e8a0e67ec8c2c
+
+COCOAPODS: 1.17.0

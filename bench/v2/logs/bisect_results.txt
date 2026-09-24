@@ -1,0 +1,11 @@
+full run 1 runApp->first_frame ms 3116
+full run 2 runApp->first_frame ms 3988
+notab run 1 runApp->first_frame ms 2951
+notab run 2 runApp->first_frame ms 3238
+noprofile run 1 runApp->first_frame ms 3095
+noprofile run 2 runApp->first_frame ms 3397
+noouter run 1 runApp->first_frame ms 3748
+noouter run 2 runApp->first_frame ms 3834
+none run 1 runApp->first_frame ms 5229
+none run 2 runApp->first_frame ms 4485
+BISECT DONE

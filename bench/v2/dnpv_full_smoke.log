@@ -1,0 +1,14 @@
+Launching lib/main.dart on SAILESHBRO in profile mode...
+Automatically signing iOS for device deployment using specified development team in Xcode project: F88YPK8ZJF
+Running Xcode build...                                          
+Xcode build done.                                           10.5s
+Installing and launching...                                     
+(lldb) process continue
+Process 1224 resuming
+warning: libobjc.A.dylib is being read from process memory. This indicates that LLDB could not find the on-disk shared cache for this device. This will likely reduce debugging performance.
+
+The Dart VM Service was not discovered after 60 seconds. This is taking much longer than expected...
+dartnative: ##BENCH## {"tag":"dnpv_full_smoke","t_us":1790230189141633,"ev":"main_enter"}
+dartnative: [DN] Licence: key exchange running in the background — provisional until it completes.
+dartnative: [DN] lifecycle → AppLifecycleState.resumed
+dartnative: ##BENCH## {"tag":"dnpv_full_smoke","t_us":1790230189651258,"ev":"ctrl_create","i":0,"src":"network"}
