@@ -55,10 +55,18 @@ changed. This build has the fixed-size rail (`kRailWidth`) that the rows
 above did not, so compare the two rows below with each other, not with the
 table above.
 
-| `itemCount` | Startup (ms) | First clip ready (ms) | `itemBuilder` calls before first frame | Calls in 12s | Logs |
+| `itemCount` | Startup (ms) | First clip ready (ms) | `itemBuilder` calls before first frame | Calls in window (12s; 60s at 10000) | Logs |
 |---|---|---|---|---|---|
 | 30 | 342, 353, 356 | 613, 536, 592 | 30 | 150, 150, 120 | `logs/feed30_{1,2,3}.log` |
 | 1000 | 2341, 2221, 2263 | 2850, 2693, 2763 | 1000 | 3000 each | `logs/feed1000_{1,2,3}.log` |
+| 10000 | no first frame | none | all 10000 built by +0.6s | 10000 | `logs/feed10000_{1,2,3}.log` |
+
+At 10000 pages, Dart built all 10000 pages within about 0.45s of the
+first build, then the app never drew a frame in a 60s window, in all three
+launches. The phone's jetsam report written during these runs
+(`logs/JetsamEvent-2026-09-24-151759-feed10000.ips`) lists `Runner` as the
+largest process, killed for `per-process-limit` at about 3.4GB resident,
+frontmost.
 
 `PageView.builder` still built every page it was given before the first
 frame and rebuilt all of them on each `setState`; with 30 pages that is
